@@ -1,0 +1,55 @@
+{
+  "name": "vite-press",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs --host",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "clean": "npx rimraf node_modules pnpm-lock.yaml",
+    "clean:cache": "pnpm store prune",
+    "dev": "run-p docs:dev watch",
+    "watch": "vitepress-helper watch --dir docs --output docs/.vitepress/helper/restart-trigger.ts",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "devDependencies": {
+    "@antv/g2plot": "^2.4.31",
+    "@mdit-vue/shared": "^0.12.0",
+    "@types/crawler": "^1.2.2",
+    "@types/markdown-it-container": "^2.0.6",
+    "@types/md5": "^2.3.2",
+    "@types/node": "^18.17.0",
+    "@vite-pwa/vitepress": "^0.0.5",
+    "@vueuse/components": "^10.2.1",
+    "@vueuse/core": "^10.2.1",
+    "crawler": "^1.4.0",
+    "fast-glob": "^3.3.1",
+    "gray-matter": "^4.0.3",
+    "live2d-lib": "^1.0.8",
+    "markdown-it-container": "^3.0.0",
+    "md5": "^2.3.0",
+    "mkdirp": "^3.0.1",
+    "npm-run-all": "^4.1.5",
+    "rollup-plugin-visualizer": "^5.9.2",
+    "sass": "^1.64.1",
+    "vite": "^4.4.7",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vitepress": "1.0.0-beta.6",
+    "vitepress-plugin-helper": "0.0.5",
+    "vitepress-plugin-sandpack": "^0.3.0",
+    "vue": "^3.3.4"
+  },
+  "pnpm": {
+    "overrides": {
+      "@antv/g-base": "0.5.11",
+      "@antv/path-util": "2.0.15",
+      "@antv/attr": "0.3.5"
+    },
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
+  }
+}
