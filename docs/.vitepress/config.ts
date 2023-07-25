@@ -75,7 +75,7 @@ export default withPwa(defineConfig({
         },
         link: 'https://gitee.com/peiyanlu/vite-press',
       },
-      { icon: 'github', link: 'https://github.com/peiyanlu/vite-press/' },
+      { icon: 'github', link: 'https://github.com/keymatter/blog/' },
     ],
     search: algolia,
     externalLinkIcon: true,
