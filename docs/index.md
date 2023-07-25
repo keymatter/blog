@@ -5,7 +5,7 @@ title: 首页
 titleTemplate: KeyMatter
 
 hero:
-  name: 小路的开发笔记
+  name: 笔记
   text: KeyMatter
   tagline: writing
   image:
