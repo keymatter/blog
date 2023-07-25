@@ -17,7 +17,7 @@ hero:
       link: /frontend/
     - theme: alt
       text: 在 GitHub 上查看
-      link: https://github.com/peiyanlu/vite-press/
+      link: https://github.com/keymatter/blog
 
 features:
   - icon: ⚡️
