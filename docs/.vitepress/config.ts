@@ -11,6 +11,7 @@ import './helper/restart-trigger'
 
 
 export default withPwa(defineConfig({
+  base:'/blog/',
   title: '笔记',
   titleTemplate: '开发笔记',
   description: '小路的开发笔记',
