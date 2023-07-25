@@ -2,11 +2,11 @@
 layout: home
 
 title: 首页
-titleTemplate: 小路的开发笔记
+titleTemplate: KeyMatter
 
 hero:
   name: 小路的开发笔记
-  text: </dev>
+  text: KeyMatter
   tagline: writing
   image:
     src: /logo.svg
